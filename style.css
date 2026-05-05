@@ -1,0 +1,35 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #575656;
+}
+main{
+    margin: 50px;
+    background-color: #A8A4A4;
+}
+h1{
+    font-family: 'Irish Grover', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    padding-top: 100px;
+    min-height: 100vh;
+    font-size: 100px;
+}
+.canais{
+    display: grid;
+    justify-content: center;
+    padding-left: 4000px;
+    width: 30px;
+    height: auto;
+}
+.einerd{
+    width: 10px;
+    height: auto;
+}
