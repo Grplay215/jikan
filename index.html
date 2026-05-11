@@ -5,28 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
     <title>Document</title>
 </head>
 <body>
     <main>
-        <div>
-            <h1>anime.net</h1>
+       
+
+        <div id="home" class="caixa">
+            <div>
+                <h1>anime.net</h1>
+            </div>
+    
+                <a href="https://www.youtube.com/@einerdtv" class="einerd">
+                    <img src="./Group 6.png" alt="Ei Nerd">
+                </a>
+    
+            <div class="canais">
+                <a href="https://www.youtube.com/@Canalgweek">
+                    <img src="./Group 6 (2).png" alt="Gweek">
+                </a>
+                <a href="https://www.youtube.com/@MattzRecaps">
+                    <img src="./Group 6 (1).png" alt="Mattz - Animes Recap">
+                </a>
+                <a href="https://www.youtube.com/@ChapéusdePalha">
+                    <img src="./Group 6 (3).png" alt="Chapéus de Palha">
+                </a>
+            </div>
+            <form id="formBusca">
+                <input type="text" id="anime" placeholder="Digite o anime:">
+                <button type="submit">Pesquisar</button>
+            </form>
+        </div>
+        
+        
+        <div id="resultado" style="display:none;">
+            <div class="topo">
+                <h1>anime.net</h1>
+                <button onclick="voltar()">←</button>
+            </div>
+        
+            <div class="conteudo">
+                <img id="capa" src="" alt="">
+                <h2 id="titulo"></h2>
+                <p id="descricao"></p>
+            </div>
         </div>
 
-        <a href="https://www.youtube.com/@einerdtv" class="einerd">
-            <img src="./ChatGPT Image 5 de mai. de 2026, 14_30_10.png" alt="">
-        </a>
-        <div class="canais">
-            <a href="https://www.youtube.com/@Canalgweek">
-                <img src="./ChatGPT Image 5 de mai. de 2026, 14_30_10.png" alt="">
-            </a>
-            <a href="https://www.youtube.com/@MattzRecaps">
-                <img src="./ChatGPT Image 5 de mai. de 2026, 14_30_10.png" alt="">
-            </a>
-            <a href="https://www.youtube.com/@ChapéusdePalha">
-                <img src="./ChatGPT Image 5 de mai. de 2026, 14_30_10.png" alt="">
-            </a>
-        </div>
     </main>
     
     
