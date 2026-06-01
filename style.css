@@ -119,3 +119,10 @@ h2{
     background-color: #D9D9D9;
     font-size: 25px;
   }
+
+  .result{
+    display:none;
+    background-color: #A8A4A4;
+    width: 90%;
+    height: 90%;
+  }
